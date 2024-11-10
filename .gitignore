@@ -1,0 +1,38 @@
+# Ignore build directories
+/build/
+/bin/
+/obj/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore executable files
+SupermarketBillingSystem
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore IDE specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Ignore logs
+*.log
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
